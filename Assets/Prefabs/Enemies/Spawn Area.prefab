@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9097418369729005449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9097418369729005450}
+  - component: {fileID: 9097418369729005451}
+  m_Layer: 0
+  m_Name: Spawn Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9097418369729005450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9097418369729005449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9097418369729005451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9097418369729005449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c969ade52f50d84b8664525c8091dfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: {x: 264.6, y: 126.4}
+  spawnRate: 3
+  warningObject: {fileID: 4877873069797982341, guid: d822ed16d7ae03541b2e4bd07c4f4298,
+    type: 3}
+  waveSteps:
+  - enemiesCount: 5
+    enemisHealth: 20
+    enemisSpeed: 120
+    ennemisPrefabs:
+    - {fileID: 8337765163107464406, guid: 5888b872dbdf32342a450559f8740e43, type: 3}
+  - enemiesCount: 6
+    enemisHealth: 20
+    enemisSpeed: 120
+    ennemisPrefabs:
+    - {fileID: 8337765163107464406, guid: 5888b872dbdf32342a450559f8740e43, type: 3}
+  - enemiesCount: 7
+    enemisHealth: 40
+    enemisSpeed: 200
+    ennemisPrefabs:
+    - {fileID: 2227266539969729627, guid: fcb100de2eb1a3e42ab34590068b229c, type: 3}
+    - {fileID: 8337765163107464406, guid: 5888b872dbdf32342a450559f8740e43, type: 3}
+  - enemiesCount: 8
+    enemisHealth: 40
+    enemisSpeed: 200
+    ennemisPrefabs:
+    - {fileID: 2227266539969729627, guid: fcb100de2eb1a3e42ab34590068b229c, type: 3}
+    - {fileID: 8337765163107464406, guid: 5888b872dbdf32342a450559f8740e43, type: 3}
+  - enemiesCount: 10
+    enemisHealth: 40
+    enemisSpeed: 200
+    ennemisPrefabs:
+    - {fileID: 2227266539969729627, guid: fcb100de2eb1a3e42ab34590068b229c, type: 3}
+    - {fileID: 8337765163107464406, guid: 5888b872dbdf32342a450559f8740e43, type: 3}
+  inWave: 0
+  spawningNewWave: 0
